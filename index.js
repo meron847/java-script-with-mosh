@@ -1,4 +1,5 @@
-let rule ;
+
+/*let rule ;
 switch (rule){
    case 'reqiuerd':
    console.log('Requierd');
@@ -8,7 +9,15 @@ switch (rule){
    break;
    default:
       console.log('unknown User');
+}*/
+let rule = 'required';
+if(rule === 'required'){
+   console.log('Required user');
 }
+else if (rule === 'number'){
+   console.log('number user');
+}
+else {console.log('unknown User');}
 
 
 
