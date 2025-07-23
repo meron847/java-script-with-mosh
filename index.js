@@ -1,11 +1,37 @@
-/*
-checkSpeed(70);
+
+checkSpeed(130);
 
 function checkSpeed(speed){
-    for(let i=0; i <=70 speed;i++){
-        const 
+    const speedLimit=70;
+    const kmPerPoint = 5;
+
+    if (speed <= speedLimit + kmPerPoint){
+        console.log('ok');
+    }else {
+     const  points = Math.floor((speed - speedLimit) / kmPerPoint);
+     if(points >= 12){
+        console.log('License suspended');
+    
+     }else{
+        console.log('points',points);
+     }
     }
-}*/
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const output=fizzBUzz(true);
 console.log(output);
 
