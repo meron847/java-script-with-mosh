@@ -1,3 +1,24 @@
+showPrimes(10)
+
+function showPrimes(primes){
+ for(let number=2; number<=primes;number++){
+   let isprime=true;
+
+   for(let factor = 2; factor < number; factor++){
+      if (number % factor ===0){
+         isprime=false;
+         break;
+      }
+
+   }
+   if (isprime) console.log(number);
+ }
+}
+
+
+
+
+
 showStars(5);
 
 function showStars(rows){
@@ -11,14 +32,14 @@ for(let row=1; row<=rows;row++){
 
 
 
-
-
 let i=0;
 while (i <= 5){
     if(i % 2 !== 0) ;
     console.log(i);
     i++;
 }
+
+
 checkSpeed(130);
 
 function checkSpeed(speed){
@@ -51,6 +72,8 @@ function sum(limit){
 
  return sum;
 }
+
+
 const output=fizzBUzz(true);
 console.log(output);
 
