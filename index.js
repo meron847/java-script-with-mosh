@@ -1,31 +1,24 @@
-let i=0;
-while (i <= 5){
-    if(i % 2 !== 0) ;
-    console.log(i);
-    i++;
+showStars(5);
+
+function showStars(rows){
+for(let row=1; row<=rows;row++){
+  let  pattern='';
+   for(let i=0;i< row;i++)
+      pattern +='#';
+   console.log(pattern);
+}
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let i=0;
+while (i <= 5){
+    if(i % 2 !== 0) ;
+    console.log(i);
+    i++;
+}
 checkSpeed(130);
 
 function checkSpeed(speed){
