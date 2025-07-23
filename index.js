@@ -26,6 +26,17 @@ function fizzBUzz(input){
  
  
  }
+ console.log( isLands(900,300))
+ function isLands(width , height){
+/*
+ if (width > height){
+    return 'true';
+ }else {
+    return 'false';
+ }*/
+ return(width>height) ;
+
+ }
   
 
 
