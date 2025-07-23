@@ -1,18 +1,13 @@
-showPrimes(10)
-
-function showPrimes(primes){
- for(let number=2; number<=primes;number++){
-   let isprime=true;
-
-   for(let factor = 2; factor < number; factor++){
-      if (number % factor ===0){
-         isprime=false;
-         break;
-      }
-
-   }
-   if (isprime) console.log(number);
- }
+let rule ;
+switch (rule){
+   case 'reqiuerd':
+   console.log('Requierd');
+   break;
+   case 'number':
+   console.log('number user')
+   break;
+   default:
+      console.log('unknown User');
 }
 
 
