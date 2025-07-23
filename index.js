@@ -1,17 +1,36 @@
+/*
+checkSpeed(70);
 
-
-
-
-
-
-
-showNumbers(100);
-
-function showNumbers(limit){
-    for (let i= 0; i<= limit;i++){
-const message =(i % 2 === 0) ? 'Even' : 'odd';
-console.log(i,message);
+function checkSpeed(speed){
+    for(let i=0; i <=70 speed;i++){
+        const 
     }
+}*/
+const output=fizzBUzz(true);
+console.log(output);
+
+function fizzBUzz(input){
+ if((input % 3 === 0) && (input % 5 ===0 )){
+ return 'fizzBUzz';
+ }if(typeof input !=='number'){
+  return NaN;
+ }if(input % 3===0){
+  return 'Fizz';
+ } if(input % 5===0){
+    return 'Buzz';   
+ }if((input % 3 !==0)&& (input % 5 !==0)){
+
+
+    return input;
+ }
  
-}
+ 
+ }
+  
+
+
+
+
+
+
     
